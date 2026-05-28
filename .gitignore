@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE settings
+.vscode/
+
+# Project specific logs
+registros.txt
+
+# Large model weights (too large for GitHub >100MB limit)
+Detector LSM Python/LSM.weights
+
+main2.py
