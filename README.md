@@ -2,6 +2,15 @@
 
 Este proyecto consiste en un sistema de visión artificial en tiempo real capaz de detectar e interpretar letras de la **Lengua de Señas Mexicana (LSM)** utilizando la cámara web. Está diseñado para facilitar la comunicación inclusiva traduciendo señas visuales en texto y audio de manera instantánea.
 
+### 📸 Demostración de la Aplicación en Funcionamiento
+
+A continuación se muestran capturas de pantalla de la interfaz de control y el detector ejecutándose en tiempo real:
+
+![Aplicación en Funcionamiento 1](.github/assets/software_running_1.png?v=2)
+![Aplicación en Funcionamiento 2](.github/assets/software_running_2.png?v=2)
+
+---
+
 ## 🚀 Características Principales
 
 * **Detección en Tiempo Real:** Captura el flujo de video de la cámara web a altos cuadros por segundo (FPS) y detecta las señas de forma continua.

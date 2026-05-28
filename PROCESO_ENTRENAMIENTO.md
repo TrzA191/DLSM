@@ -14,7 +14,7 @@ Para construir un modelo de detección robusto y generalizable, se llevó a cabo
 * **Volumen Base:** El dataset inicial cuenta con aproximadamente 810 imágenes de base (27 letras $\times$ 5 fotos por letra $\times$ 6-7 personas).
 
 ### Ejemplo de Captura de Imagen
-![Ejemplo de fotografía recopilada](.github/assets/IMG_7520.JPEG?v=2)
+![Ejemplo de fotografía recopilada](.github/assets/lsm_dataset_sample.jpg?v=2)
 
 ---
 
@@ -32,8 +32,8 @@ Una vez recopiladas las imágenes, se procedió a delimitar y etiquetar el área
   `1 0.419271 0.429167 0.046875 0.173148`
 
 ### Capturas del Proceso de Etiquetado en LabelImg
-![Interfaz de etiquetado en LabelImg - Vista 1](.github/assets/Screenshot%202026-05-27%20193328.png?v=2)
-![Interfaz de etiquetado en LabelImg - Vista 2](.github/assets/Screenshot%202026-05-27%20193514.png?v=2)
+![Interfaz de etiquetado en LabelImg - Vista 1](.github/assets/labelimg_sample_1.png?v=2)
+![Interfaz de etiquetado en LabelImg - Vista 2](.github/assets/labelimg_sample_2.png?v=2)
 
 ---
 
@@ -68,9 +68,9 @@ Durante la ejecución del entrenamiento en Google Colab, se monitorizó la curva
 
 A continuación se presentan capturas del proceso de entrenamiento y predicciones obtenidas durante la monitorización del modelo en Colab:
 
-![Captura de Entrenamiento y Predicción 1](.github/assets/Screenshot%202026-05-27%20161342.png?v=2)
-![Captura de Entrenamiento y Predicción 2](.github/assets/Screenshot%202026-05-27%20161351.png?v=2)
-![Captura de Entrenamiento y Predicción 3](.github/assets/Screenshot%202026-05-27%20161407.png?v=2)
-![Captura de Entrenamiento y Predicción 4](.github/assets/Screenshot%202026-05-27%20161434.png?v=2)
+![Captura de Entrenamiento y Predicción 1](.github/assets/colab_training_1.png?v=2)
+![Captura de Entrenamiento y Predicción 2](.github/assets/colab_training_2.png?v=2)
+![Captura de Entrenamiento y Predicción 3](.github/assets/colab_training_3.png?v=2)
+![Captura de Entrenamiento y Predicción 4](.github/assets/colab_training_4.png?v=2)
 
 Los pesos resultantes con el menor error de validación (`LSM.weights`) fueron descargados e integrados directamente en la aplicación de escritorio final.
